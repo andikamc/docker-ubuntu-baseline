@@ -3,8 +3,6 @@ name: Docker Image Autopilot Build Push after Push (focal)
 on:
   push:
     branches: [ focal-oci ]
-  pull_request:
-    branches: [ focal-oci ]
 
 jobs:
   push_to_registry:
