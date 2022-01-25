@@ -44,5 +44,5 @@ RUN rm -rf /tmp/* && \
 CMD ["/systemd"]
 HEALTHCHECK CMD node /opt/healthcheck/monitor.js
 LABEL maintainer="Andika Muhammad Cahya <andkmc99@gmail.com>"
-LABEL version="Ubuntu SystemD build 2201221602 based on Ubuntu 18.04 Focal"
+LABEL version="Ubuntu SystemD build 2201221602 based on Ubuntu 18.04 Bionic"
 WORKDIR /root
