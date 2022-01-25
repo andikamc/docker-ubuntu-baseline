@@ -31,5 +31,5 @@ jobs:
         with:
           context: .
           push: ${{ github.event_name != 'pull_request' }}
-          tags: andikamc/ubuntu-baseline:focal-oci
+          tags: andikamc/ubuntu-baseline:focal
           labels: ${{ steps.meta.outputs.labels }}
