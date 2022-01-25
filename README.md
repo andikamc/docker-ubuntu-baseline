@@ -1,5 +1,5 @@
 # Ubuntu Baseline Image for Docker Container
-[![Build Status](https://travis-ci.org/sadatech/docker-ubuntu-baseline.svg?branch=master)](https://travis-ci.org/sadatech/docker-ubuntu-baseline)
+[![Build Status](https://travis-ci.org/andikamc/docker-ubuntu-baseline.svg?branch=master)](https://travis-ci.org/andikamc/docker-ubuntu-baseline)
 
 Run SystemD inside Ubuntu Docker Container
 
