@@ -1,10 +1,10 @@
-name: Docker Image Autopilot Build Push after Push
+name: Docker Image Autopilot Build Push after Push (bionic)
 
 on:
   push:
-    branches: [ main ]
+    branches: [ bionic-oci ]
   pull_request:
-    branches: [ main ]
+    branches: [ bionic-oci ]
 
 jobs:
   push_to_registry:
@@ -33,5 +33,5 @@ jobs:
         with:
           context: .
           push: ${{ github.event_name != 'pull_request' }}
-          tags: andikamc/ubuntu-baseline:latest
+          tags: andikamc/ubuntu-baseline:bionic-oci
           labels: ${{ steps.meta.outputs.labels }}
