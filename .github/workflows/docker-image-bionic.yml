@@ -3,8 +3,6 @@ name: Docker Image Autopilot Build Push after Push (bionic)
 on:
   push:
     branches: [ bionic-oci ]
-  pull_request:
-    branches: [ bionic-oci ]
 
 jobs:
   push_to_registry:
